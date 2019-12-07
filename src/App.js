@@ -17,7 +17,7 @@ function ShowBanner(props){
 
 class Clock extends Component {
   constructor(props){
-    super(props);
+    super(props)
     this.state = {
       date: new Date()
     }
