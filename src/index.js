@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Clock from './App';
 import * as serviceWorker from './serviceWorker';
-import { ReactComponent } from '*.svg';
 
-class App extends ReactComponent {
+class App extends React.Component {
     render(){
-        <div className = "wrapper">
-            
-        </div>
+        return(
+            <div className = "wrapper">
+                <Clock />
+            </div>
+        )
+        
     }
 }
 
